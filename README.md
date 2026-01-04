@@ -13,9 +13,11 @@
 ### - Clone the repository  
     - https://github.com/mohkh22/Shopping-cart-management-system.git
 ## 📸 Screenshots
-![Login Page](Images\loginPage.jpg)
-![Products Page](Images\Product.jpg)
-![Cart Page](Images\cart.jpg)
+![Login Page](https://github.com/mohkh22/Shopping-cart-management-system/blob/master/Images/loginPage.jpg)
+-----
+![Products Page](https://github.com/mohkh22/Shopping-cart-management-system/blob/master/Images/Product.jpg)
+-----
+![Cart Page](https://github.com/mohkh22/Shopping-cart-management-system/blob/master/Images/cart.jpg)
 ## 👨‍💻 Author
 ### - Mohamed Khaled  
 ### - GitHub: [https://github.com/mohkh22]
