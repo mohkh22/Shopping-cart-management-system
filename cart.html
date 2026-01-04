@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="StyleSheet" href="style2.css">
+</head>
+<body>
+        
+       <div class="container">
+        <div class="pageBuy">
+            <h2>Products</h2>
+            <ul class="products">
+                <li >
+                    <img src="/Images/Arzum.jpg" alt="Arzum">
+                    <h4>Arzum</h4>
+                     <span>price : 10$</span>
+                     <span class="sale">
+                        <span>-20% </span>
+                        <span id="time">1:20:00 </span>
+                     </span>
+                    <button onclick="add(this)">buy</button>
+                </li>
+                <li>
+                    <img src="/Images/Biligo.jpg" alt="Biligo">
+                    <h4>Biligo</h4>
+                    <span>price : 20$</span>
+                    <button onclick="add(this)">buy</button>
+                </li>
+                <li>
+                    <img src="/Images/BLACK+DECKER.jpg" alt="BLACK+DECKER">
+                    <h4>BLACK+DECKER</h4>
+                    <span>price : 30$</span>
+                    <button onclick="add(this)">buy</button>
+                </li>
+                <li>
+                    <img src="/Images/Hand Wash Only.jpg" alt="Hand Wash Only">
+                    <h4>Hand Wash Only</h4>
+                    <span>price : 40$</span>
+                    <button onclick="add(this)">buy</button>
+                </li>
+                <li>
+                    <img src="/Images/Micro Four Thirds.jpg" alt="Micro Four Thirds">
+                    <h4>Micro Four Thirds</h4>
+                    <span>price : 50$</span>
+                    <button onclick="add(this)">buy</button>
+                </li>
+                <li>
+                    <img src="/Images/Nokia.jpg" alt="Nokia">
+                    <h4>Nokia</h4>
+                    <span>price : 60$</span>
+                    <button onclick="add(this)">buy</button>
+                </li>
+                <li>
+                    <img src="/Images/ONCHEER.jpg" alt="ONCHEER">
+                    <h4>ONCHEER</h4>
+                    <span>price : 70$</span>
+                    <button onclick="add(this)">buy</button>
+                </li>
+                <li>
+                    <img src="/Images/XIAOMI.jpg" alt="XIAOMI">
+                    <h4>XIAOMI</h4>
+                    <span>price : 80$</span>
+                    <button onclick="add(this)">buy</button>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="Cart">
+            <h2>Your Cart</h2>
+
+            <div class="Pro">
+                <p id="empty">Your Cart Is Empty</p>
+                  <ul id="listpro">
+
+                  </ul>
+            </div>
+            <button id="checkout" onclick="btncheckout()">Checkout</button>
+        </div>
+       </div>
+
+       <script src="main2.js"></script>
+</body>
+</html>

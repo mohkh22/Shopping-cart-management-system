@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  
+  height: 100vh;
+  width: 100%;
+  background-color: #010101;
+}
+.conatiner {
+  width: 100%;
+  height: 100%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+}
+input,
+button {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 5px;
+}
+.login {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  /* margin: 25% auto;
+  transform: translateY(-50%); */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid White;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #fff;
+}
+
+.login h1 {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+
+.login button {
+  background-color: green;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#empty {
+  display: none;
+}
+
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 90;
+  align-content: center;
+  display: none;
+}
+
+.loading span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border: 5px solid #fff;
+  border-top-color: transparent;
+  border-radius: 50%;
+  z-index: 100;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
